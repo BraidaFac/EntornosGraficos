@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+        table{
+            border: 2px solid #949494;
+            width: auto;
+            border-collapse: collapse;
+        }
+         td{
+
+            width: 200px;
+            border: 2px solid #949494;
+        }
+        input{
+            width: 150px;
+            height: 20px;
+            border: 2px solid black;
+            margin-top: 5px;
+
+        }
+        textarea{
+            width: 150px;
+            height: 80px;
+            border: 2px solid black;
+            margin-top: 5px;
+
+        }
+        label{
+            display: inline-block;
+            width: 65px;
+        }
+        button{
+            display: inline-block;
+            width: 75px;
+            height: 35px;
+            background-color: transparent;
+            border: 2px solid #000000;
+            font-size: large;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://utn.edu.ar/es/"><img src="UTN_logo.jpg" alt="Logo UTN" width="70px" height="70px"/></a>
+    </header>
+    <hr size="3" color="black" > 
+    <main>
+        <h2> ANO 2008</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th align="left">Examenes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td 
+                        rowspan="2">Fecha: 30/03/2023
+                    </td>
+    
+                    <td align="right">Aprobados</td>
+                </tr>
+                <tr>
+                    <td align="right">24/30</td>
+                </tr>
+            </tbody>
+        </table>
+        <ol>
+            <li>
+                <a href="#enunciado"> Enunciado de examen</a>
+            </li>
+            <li>
+                <a href="#" target="_blank">Resolucion</a>
+            </li>
+        </ol>
+        <div>
+            <p>Puede realizar consultas completando el siguiente formulario</p>
+            <form action="">
+                <label for="mail"><b>e-mail:</b></label>
+                <input height="20px" type="email" id="mail">
+                <br>
+                <label 
+                style="position: relative;
+                        top: -70px"
+                for="consulta"><b>consulta:</b></label>
+                <textarea maxlength="100" type="text" id="consulta"></textarea>
+                <br>
+                <div style="margin-left:70px">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+            </form>
+        </div>    
+        <a name="enunciado">
+            <h3 style="margin:60px 0px 2px;">Enunciado de examen</h3>
+        </a>
+        <p style="margin:0px 0px 50px 10px">
+            Ejercicio 1:...................
+            <br>.....................................
+            <br>
+            Ejercicio 2:...................
+            <br>.....................................
+        </p>     
+        <footer>
+            <p>Para mas informacion dirigese a 
+            <a href="contacto@xx.com">contacto@xx.com</a></p>
+        </footer>
+    </main>
+    
+
+</body>
+</html>
