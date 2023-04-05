@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 4</title>
     <style>
-        table{
+        table
+        {
             border: 2px solid #949494;
-            width: auto;
             border-collapse: collapse;
-        }
+        } 
          td{
 
             width: 200px;
@@ -51,8 +51,8 @@
     </header>
     <hr size="3" color="black" > 
     <main>
-        <h2> ANO 2008</h2>
-        <table>
+        <h2> ANO <time datetime="2023">2023</time></h2>
+        <table width="auto">
             <thead>
                 <tr>
                     <th></th>
@@ -62,7 +62,7 @@
             <tbody>
                 <tr>
                     <td 
-                        rowspan="2">Fecha: 30/03/2023
+                        rowspan="2">Fecha:<time datetime="2023-03-30">30/03/2023</time>
                     </td>
     
                     <td align="right">Aprobados</td>
@@ -80,9 +80,12 @@
                 <a href="#" target="_blank">Resolucion</a>
             </li>
         </ol>
-        <div>
+        <div id="formulario">
             <p>Puede realizar consultas completando el siguiente formulario</p>
-            <form action="">
+            <form 
+            action="mailto:facundobraida98@gmail.com"
+            method="POST"
+            enctype="text/plain">
                 <label for="mail"><b>e-mail:</b></label>
                 <input height="20px" type="email" id="mail">
                 <br>
@@ -98,16 +101,16 @@
                 </div>
             </form>
         </div>    
-        <a name="enunciado">
+        <section id="enunciado">
             <h3 style="margin:60px 0px 2px;">Enunciado de examen</h3>
-        </a>
-        <p style="margin:0px 0px 50px 10px">
-            Ejercicio 1:...................
-            <br>.....................................
-            <br>
-            Ejercicio 2:...................
-            <br>.....................................
-        </p>     
+            <p style="margin:0px 0px 50px 10px">
+                Ejercicio 1:...................
+                <br>.....................................
+                <br>
+                Ejercicio 2:...................
+                <br>.....................................
+            </p> 
+       </section>
         <footer>
             <p>Para mas informacion dirigese a 
             <a href="contacto@xx.com">contacto@xx.com</a></p>
