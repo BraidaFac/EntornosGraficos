@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <style type="text/css">
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      label {
+        text-align: center;
+      }
+      input {
+        width: 200px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Enviar un comentario a WebMaster</h1>
+    <form method="post" action="contacto.php">
+      <div>
+        <label for="fullName">Nombre completo</label>
+        <input type="text" name="fullName" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" required />
+      </div>
+      <div>
+        <label for="consulta">Consulta</label>
+        <textarea
+          placeholder="Escriba su consulta"
+          name="consulta"
+          required
+        ></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
