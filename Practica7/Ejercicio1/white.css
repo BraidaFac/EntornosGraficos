@@ -1,0 +1,22 @@
+body {
+  background-color: bisque;
+  color: black;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+}
+.sideTheme {
+  right: 2px;
+  position: absolute;
+  border: 2px solid;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 10px;
+}
+select {
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
